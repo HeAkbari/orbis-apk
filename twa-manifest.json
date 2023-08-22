@@ -1,0 +1,66 @@
+{
+  "packageId": "ir.easytrader.orbis.m.twa",
+  "host": "m.orbis.easytrader.ir",
+  "name": "ایزی تریدر اربیس",
+  "launcherName": "ایزی تریدر اربیس",
+  "display": "standalone",
+  "themeColor": "#3C4F63",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#FFFFFF",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://m.orbis.easytrader.ir/assets/icons/icon-512x512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "D:\\Project\\orbis-apk\\android.keystore",
+    "alias": "key_orbis"
+  },
+  "appVersionName": "8",
+  "appVersionCode": 8,
+  "shortcuts": [
+    {
+      "name": "جستجوی سهم",
+      "shortName": "جستجوی سهم",
+      "url": "https://m.orbis.easytrader.ir/search",
+      "chosenIconUrl": "https://m.orbis.easytrader.ir/assets/shortcut_Icons/search.png"
+    },
+    {
+      "name": "پرتفوی من",
+      "shortName": "پرتفوی من",
+      "url": "https://m.orbis.easytrader.ir/portfolio",
+      "chosenIconUrl": "https://m.orbis.easytrader.ir/assets/shortcut_Icons/portfolio.png"
+    },
+    {
+      "name": "واریز وجه",
+      "shortName": "واریز وجه",
+      "url": "https://m.orbis.easytrader.ir/menu/money-receipt",
+      "chosenIconUrl": "https://m.orbis.easytrader.ir/assets/shortcut_Icons/money-receipt.png"
+    },
+    {
+      "name": "نقشه بازار",
+      "shortName": "نقشه بازار",
+      "url": "https://m.orbis.easytrader.ir/market-map",
+      "chosenIconUrl": "https://m.orbis.easytrader.ir/assets/shortcut_Icons/market-map.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://m.orbis.easytrader.ir/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": false,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://m.orbis.easytrader.ir/",
+  "minSdkVersion": 19,
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "appVersion": "8"
+}

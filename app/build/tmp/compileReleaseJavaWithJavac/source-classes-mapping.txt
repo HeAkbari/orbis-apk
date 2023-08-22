@@ -1,0 +1,8 @@
+ir/easytrader/orbis/m/twa/LauncherActivity.java
+ ir.easytrader.orbis.m.twa.LauncherActivity
+ir/easytrader/orbis/m/twa/DelegationService.java
+ ir.easytrader.orbis.m.twa.DelegationService
+ir/easytrader/orbis/m/twa/BuildConfig.java
+ ir.easytrader.orbis.m.twa.BuildConfig
+ir/easytrader/orbis/m/twa/Application.java
+ ir.easytrader.orbis.m.twa.Application

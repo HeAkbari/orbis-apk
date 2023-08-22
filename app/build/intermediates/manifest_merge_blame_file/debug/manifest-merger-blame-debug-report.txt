@@ -1,0 +1,265 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3    Copyright 2019 Google Inc. All Rights Reserved.
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9         http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<!--
+18 The "package" attribute is rewritten by the Gradle build with the value of applicationId.
+19     It is still required here, as it is used to derive paths, for instance when referring
+20     to an Activity by ".MyActivity" instead of the full name. If more Activities are added to the
+21     application, the package attribute will need to reflect the correct path in order to use
+22     the abbreviated format.
+23-->
+24<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+25    package="ir.easytrader.orbis.m.twa"
+26    android:versionCode="8"
+27    android:versionName="8" >
+28
+29    <uses-sdk
+30        android:minSdkVersion="19"
+30-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml
+31        android:targetSdkVersion="33" />
+31-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml
+32
+33    <queries>
+33-->[com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] D:\gradle\gradle-7.1.1\caches\transforms-2\files-2.1\816850808f9de9e670a4838cd1f96218\androidbrowserhelper-2.5.0\AndroidManifest.xml:26:5-34:15
+34        <intent>
+34-->[com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] D:\gradle\gradle-7.1.1\caches\transforms-2\files-2.1\816850808f9de9e670a4838cd1f96218\androidbrowserhelper-2.5.0\AndroidManifest.xml:27:9-33:18
+35            <action android:name="android.intent.action.VIEW" />
+35-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:123:17-68
+35-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:123:25-66
+36
+37            <category android:name="android.intent.category.BROWSABLE" />
+37-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:125:17-77
+37-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:125:27-75
+38
+39            <data android:scheme="https" />
+39-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:126:17-127:54
+39-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:126:23-45
+40        </intent>
+41    </queries>
+42
+43    <application
+43-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:33:5-166:19
+44        android:name="ir.easytrader.orbis.m.twa.Application"
+44-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:34:9-35
+45        android:allowBackup="true"
+45-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:35:9-35
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.1.0] D:\gradle\gradle-7.1.1\caches\transforms-2\files-2.1\e601daed4ba62929db8b322b2974c8f8\core-1.1.0\AndroidManifest.xml:24:18-86
+47        android:icon="@mipmap/ic_launcher"
+47-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:36:9-43
+48        android:label="@string/appName"
+48-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:37:9-40
+49        android:supportsRtl="true"
+49-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:39:9-35
+50        android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+50-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:40:9-68
+51        <meta-data
+51-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:42:9-44:58
+52            android:name="asset_statements"
+52-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:43:13-44
+53            android:resource="@string/assetStatements" />
+53-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:44:13-55
+54        <meta-data
+54-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:47:13-49:58
+55            android:name="web_manifest_url"
+55-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:48:17-48
+56            android:value="@string/webManifestUrl" />
+56-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:49:17-55
+57        <meta-data
+57-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:52:9-54:52
+58            android:name="twa_generator"
+58-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:53:13-41
+59            android:value="@string/generatorApp" />
+59-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:54:13-49
+60
+61        <activity
+61-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:62:9-131:20
+62            android:name="ir.easytrader.orbis.m.twa.LauncherActivity"
+62-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:62:19-50
+63            android:alwaysRetainTaskState="true"
+63-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:63:13-49
+64            android:exported="true"
+64-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:65:13-36
+65            android:label="@string/launcherName" >
+65-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:64:13-49
+66            <meta-data
+66-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:66:13-67:53
+67                android:name="android.support.customtabs.trusted.DEFAULT_URL"
+67-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:66:24-85
+68                android:value="@string/launchUrl" />
+68-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:67:17-50
+69            <meta-data
+69-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:69:13-71:58
+70                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
+70-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:70:17-83
+71                android:resource="@color/colorPrimary" />
+71-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:71:17-55
+72            <meta-data
+72-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:73:13-75:61
+73                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
+73-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:74:17-87
+74                android:resource="@color/navigationColor" />
+74-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:75:17-58
+75            <meta-data
+75-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:77:13-79:65
+76                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK"
+76-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:78:17-92
+77                android:resource="@color/navigationColorDark" />
+77-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:79:17-62
+78            <meta-data
+78-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:81:13-83:68
+79                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR"
+79-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:82:17-84
+80                android:resource="@color/navigationDividerColor" />
+80-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:83:17-65
+81            <meta-data
+81-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:85:13-87:72
+82                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR_DARK"
+82-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:86:17-89
+83                android:resource="@color/navigationDividerColorDark" />
+83-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:87:17-69
+84            <meta-data
+84-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:89:13-90:54
+85                android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
+85-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:89:24-95
+86                android:resource="@drawable/splash" />
+86-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:90:17-52
+87            <meta-data
+87-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:92:13-93:60
+88                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR"
+88-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:92:24-104
+89                android:resource="@color/backgroundColor" />
+89-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:93:17-58
+90            <meta-data
+90-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:95:13-96:71
+91                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION"
+91-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:95:24-105
+92                android:value="@integer/splashScreenFadeOutDuration" />
+92-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:96:17-69
+93            <meta-data
+93-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:98:13-99:60
+94                android:name="android.support.customtabs.trusted.FILE_PROVIDER_AUTHORITY"
+94-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:98:24-97
+95                android:value="@string/providerAuthority" />
+95-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:99:17-58
+96            <meta-data
+96-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:101:13-97
+97                android:name="android.app.shortcuts"
+97-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:101:24-60
+98                android:resource="@xml/shortcuts" />
+98-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:101:61-94
+99            <meta-data
+99-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:103:13-104:56
+100                android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY"
+100-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:103:24-91
+101                android:value="@string/fallbackType" />
+101-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:104:17-53
+102            <meta-data
+102-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:110:13-111:54
+103                android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
+103-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:110:24-92
+104                android:value="@string/orientation" />
+104-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:111:17-52
+105
+106            <intent-filter>
+106-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:117:13-120:29
+107                <action android:name="android.intent.action.MAIN" />
+107-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:118:17-69
+107-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:118:25-66
+108
+109                <category android:name="android.intent.category.LAUNCHER" />
+109-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:119:17-77
+109-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:119:27-74
+110            </intent-filter>
+111            <intent-filter android:autoVerify="true" >
+111-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:122:13-128:29
+111-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:122:28-53
+112                <action android:name="android.intent.action.VIEW" />
+112-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:123:17-68
+112-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:123:25-66
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:124:17-76
+114-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:124:27-73
+115                <category android:name="android.intent.category.BROWSABLE" />
+115-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:125:17-77
+115-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:125:27-75
+116
+117                <data
+117-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:126:17-127:54
+118                    android:host="@string/hostName"
+118-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:127:21-52
+119                    android:scheme="https" />
+119-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:126:23-45
+120            </intent-filter>
+121        </activity>
+122        <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />
+122-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:133:9-90
+122-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:133:19-87
+123        <activity
+123-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:135:9-136:62
+124            android:name="com.google.androidbrowserhelper.trusted.WebViewFallbackActivity"
+124-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:135:19-97
+125            android:configChanges="orientation|screenSize" />
+125-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:136:13-59
+126
+127        <provider
+127-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:138:9-146:20
+128            android:name="androidx.core.content.FileProvider"
+128-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:139:13-62
+129            android:authorities="@string/providerAuthority"
+129-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:140:13-60
+130            android:exported="false"
+130-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:142:13-37
+131            android:grantUriPermissions="true" >
+131-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:141:13-47
+132            <meta-data
+132-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:143:13-145:53
+133                android:name="android.support.FILE_PROVIDER_PATHS"
+133-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:144:17-67
+134                android:resource="@xml/filepaths" />
+134-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:145:17-50
+135        </provider>
+136
+137        <service
+137-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:148:9-163:19
+138            android:name="ir.easytrader.orbis.m.twa.DelegationService"
+138-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:149:13-46
+139            android:enabled="@bool/enableNotification"
+139-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:150:13-55
+140            android:exported="@bool/enableNotification" >
+140-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:151:13-56
+141            <meta-data
+141-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:154:17-156:73
+142                android:name="android.support.customtabs.trusted.SMALL_ICON"
+142-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:155:21-81
+143                android:resource="@drawable/ic_notification_icon" />
+143-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:156:21-70
+144
+145            <intent-filter>
+145-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:159:13-162:29
+146                <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE" />
+146-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:160:17-105
+146-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:160:25-103
+147
+148                <category android:name="android.intent.category.DEFAULT" />
+148-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:124:17-76
+148-->D:\Project\orbis-apk\app\src\main\AndroidManifest.xml:124:27-73
+149            </intent-filter>
+150        </service>
+151    </application>
+152
+153</manifest>
