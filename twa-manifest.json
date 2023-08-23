@@ -15,7 +15,7 @@
   "iconUrl": "https://m.orbis.easytrader.ir/assets/icons/icon-512x512.png",
   "splashScreenFadeOutDuration": 300,
   "signingKey": {
-    "path": "D:\\Project\\orbis-apk\\android.keystore",
+    "path": "D:\\Project\\orbis-apk\\release-key.keystore",
     "alias": "key_orbis"
   },
   "appVersionName": "8",

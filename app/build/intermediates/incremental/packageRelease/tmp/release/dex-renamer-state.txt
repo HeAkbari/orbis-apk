@@ -1,0 +1,4 @@
+#Tue Aug 22 16:35:38 IRDT 2023
+base.0=D\:\\Project\\orbis-apk\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
